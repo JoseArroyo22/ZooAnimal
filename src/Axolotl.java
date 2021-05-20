@@ -1,5 +1,7 @@
 public class Axolotl implements  iAnimal {
-
+    private int anIdTag;
+    private int minTemp = 50;
+    private int maxTemp = 74;
 
     public String getAnimalType() {
         return "Axolotl";
@@ -7,21 +9,22 @@ public class Axolotl implements  iAnimal {
 
 
     public int getIdTag() {
-        return 0;
+        return anIdTag;
     }
 
 
     public void setIdTag(int anIdTag) {
+        this.anIdTag = anIdTag;
 
     }
 
 
     public int getMinTemperature() {
-        return 50;
+        return minTemp;
     }
 
 
     public int getMaxTemperature() {
-        return 74;
+        return maxTemp;
     }
 }
