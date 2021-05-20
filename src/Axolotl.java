@@ -1,10 +1,11 @@
 public class Axolotl implements  iAnimal {
+    private String animalType = "Axolotl";
     private int anIdTag;
     private int minTemp = 50;
     private int maxTemp = 74;
 
     public String getAnimalType() {
-        return "Axolotl";
+        return animalType;
     }
 
 
